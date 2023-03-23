@@ -1,0 +1,22 @@
+//Wap for arithamatic operation and taking float value from user at runtime in java
+import java.util.*;
+public class farithmatic{
+public static void main(String[]args){
+Scanner scn=new Scanner(System.in);
+System.out.println("Enter the two float values:: ");
+float a=scn.nextFloat();
+float b=scn.nextFloat();
+float sum;
+float sub;
+float mul;
+float div;
+sum=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+System.out.println("Sum :: "+sum);
+System.out.println("Difference :: "+sub);
+System.out.println("Product :: "+mul);
+System.out.println("Division :: "+div);
+}
+}
