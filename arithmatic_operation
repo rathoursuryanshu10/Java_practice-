@@ -1,0 +1,22 @@
+//Wap for arithamatic operation and taking integer value from user at runtime in java 
+import java.util.*;
+public class arithmatic{
+public static void main(String [] args){
+Scanner scn=new Scanner(System.in);
+System.out.println("Enter the two intger input :: ");
+int a=scn.nextInt();
+int b=scn.nextInt();
+int sum;
+int sub;
+int mul;
+int div;
+sum=a+b;
+sub=a-b;
+mul=a*b;
+div=a/b;
+System.out.println("Sum :: "+sum);
+System.out.println("DIffernce :: "+sub);
+System.out.println("Multiplication :: "+mul);
+System.out.println("Division :: "+div);
+}
+}
